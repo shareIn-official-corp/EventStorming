@@ -7,7 +7,60 @@
 - 아파트 인증 데이터 DB 저장: 아파트를 인증해서 아파트 단지 데이터를 저장한다
 - 검색기능: 게시판 글을 기반으로 검색을 했을 시 기능이 만들어진다. (DB조회)
 
-> ➡️ 요구사항 불명확함 so, 이벤트스토밍 진행
+> ➡️ 요구사항 불명확 -> 이벤트스토밍 진행 결정
 
 
 <br/>
+<br/>
+
+
+## 사용자 기능 요구사항
+
+
+<details>
+<summary>회원 BC</summary>
+
+![Blank diagram (3).png](imgfile%2FBlank%20diagram%20%283%29.png)
+
+</details>
+
+
+<details>
+<summary>아파트 BC</summary>
+
+![Blank diagram - Page 2 (8).png](imgfile%2FBlank%20diagram%20-%20Page%202%20%288%29.png)
+
+</details>
+
+
+
+
+<details>
+<summary>게시판 BC</summary>
+
+![shareIn (3).jpg](imgfile%2FshareIn%20%283%29.jpg)
+
+</details>
+
+
+
+<details>
+<summary>전체</summary>
+
+![shareIn (4).jpg](imgfile%2FshareIn%20%284%29.jpg)
+
+</details>
+
+
+
+
+<br/>
+
+<details>
+<summary>1차 릴리스 이후 추가</summary>
+
+![shareIn (5).jpg](imgfile%2FshareIn%20%285%29.jpg)
+
+</details>
+
+
