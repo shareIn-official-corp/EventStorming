@@ -64,3 +64,343 @@
 </details>
 
 
+
+<br/>
+<br/>
+
+
+## 1차 릴리스 백로그
+
+
+<details>
+<summary>서버</summary>
+
+<table>
+  <tr>
+   <td>BC
+   </td>
+   <td>커맨드
+   </td>
+   <td>액터
+   </td>
+   <td>정책
+   </td>
+   <td>써드파티 (클라이언트에서 처리)
+   </td>
+  </tr>
+  <tr>
+   <td>회원BC
+   </td>
+   <td>회원가입
+   </td>
+   <td>비회원
+   </td>
+   <td>회원정보동의되면가입됨
+   </td>
+   <td>애플OAuth, 구글OAuth, 네이버OAuth, 카카오OAuth
+   </td>
+  </tr>
+  <tr>
+   <td>회원BC
+   </td>
+   <td>회원정보변경
+   </td>
+   <td>회원
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>회원BC
+   </td>
+   <td>회원아파트정보변경
+   </td>
+   <td>회원
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>회원BC
+   </td>
+   <td>회원정보삭제
+   </td>
+   <td>회원
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>회원BC
+   </td>
+   <td>로그인
+   </td>
+   <td>비로그인회원
+   </td>
+   <td>
+   </td>
+   <td>애플OAuth, 구글OAuth, 네이버OAuth, 카카오OAuth
+   </td>
+  </tr>
+  <tr>
+   <td>회원BC
+   </td>
+   <td>로그아웃
+   </td>
+   <td>로그인회원
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>아파트BC
+   </td>
+   <td>아파트인증
+   </td>
+   <td>아파트비인증회원
+   </td>
+   <td>
+   </td>
+   <td>카카오맵API
+   </td>
+  </tr>
+  <tr>
+   <td>아파트BC
+   </td>
+   <td>아파트정보조회됨
+   </td>
+   <td>관리자
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>아파트BC
+   </td>
+   <td>아파트정보생성
+   </td>
+   <td>관리자
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>아파트BC
+   </td>
+   <td>아파트정보수정
+   </td>
+   <td>관리자
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>게시판 BC
+   </td>
+   <td>게시판생성
+   </td>
+   <td>아파트회원
+   </td>
+   <td>게시판생성요청승인 되면 게시판 생성
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>게시판 BC
+   </td>
+   <td>게시판리스트조회
+   </td>
+   <td>아파트회원
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>게시판 BC
+   </td>
+   <td>게시판변경
+   </td>
+   <td>게시판생성회원
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>게시판 BC
+   </td>
+   <td>게시판삭제
+   </td>
+   <td>게시판생성회원
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>게시판 BC
+   </td>
+   <td>게시판요청조회
+   </td>
+   <td>관리자
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>게시판 BC
+   </td>
+   <td>게시판요청승인
+   </td>
+   <td>관리자
+   </td>
+   <td>게시판정보를 아파트게시판에 추가
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>게시판 BC
+   </td>
+   <td>게시판요청반려
+   </td>
+   <td>관리자
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>게시판 BC
+   </td>
+   <td>아파트게시글추가
+   </td>
+   <td>아파트인증회원
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>게시판 BC
+   </td>
+   <td>아파트게시글조회
+   </td>
+   <td>아파트인증회원
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>게시판 BC
+   </td>
+   <td>아파트게시글수정
+   </td>
+   <td>게시글작성자
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>게시판 BC
+   </td>
+   <td>아파트게시글삭제
+   </td>
+   <td>게시글작성자
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>게시판 BC
+   </td>
+   <td>아파트게시글리스트조회
+   </td>
+   <td>아파트인증회원
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>게시판 BC
+   </td>
+   <td>아파트게시글검색
+   </td>
+   <td>아파트인증회원
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>게시판 BC
+   </td>
+   <td>신고추가
+   </td>
+   <td>아파트인증회원
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>게시판 BC
+   </td>
+   <td>신고조회
+   </td>
+   <td>관리자
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>게시판 BC
+   </td>
+   <td>신고처리
+   </td>
+   <td>Sys
+   </td>
+   <td>10번이상신고되면영구정지
+   </td>
+   <td>
+   </td>
+  </tr>
+</table>
+
+
+</details>
