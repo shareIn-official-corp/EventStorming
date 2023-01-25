@@ -1,4 +1,7 @@
-## 사용자 기능 요구사항
+## 서비스 요구사항
+
+
+#### 사용자 기능 요구사항
 
 - 게시판 추가: 회원은 게시판을 추가할 수 있다.
 - 게시글 추가: 회원은 게시판에 글을 생성할 수 있다.
@@ -9,12 +12,22 @@
 
 > ➡️ 요구사항 불명확 -> 이벤트스토밍 진행 결정
 
+<br/>
+
+#### 비기능 요구사항
+
+-
+-
+-
 
 <br/>
 <br/>
 
 
-## 이벤트스토밍 진행
+## 분석/설계
+
+
+#### 이벤트스토밍 결과
 
 
 <details>
@@ -28,7 +41,9 @@
 <details>
 <summary>아파트 BC</summary>
 
-![Blank diagram - Page 2 (8).png](imgfile%2FBlank%20diagram%20-%20Page%202%20%288%29.png)
+![image](https://user-images.githubusercontent.com/46955032/214474358-67e56b68-dca3-4a03-86ba-724efe534d99.png)
+
+
 
 </details>
 
@@ -38,7 +53,11 @@
 <details>
 <summary>게시판 BC</summary>
 
-![shareIn (3).jpg](imgfile%2FshareIn%20%283%29.jpg)
+![image](https://user-images.githubusercontent.com/46955032/214473964-3e65d8dc-57db-4197-bdac-44e6f4add459.png)
+
+
+
+
 
 </details>
 
@@ -47,13 +66,47 @@
 <details>
 <summary>전체</summary>
 
-![shareIn (4).jpg](imgfile%2FshareIn%20%284%29.jpg)
+![image](https://user-images.githubusercontent.com/46955032/214474244-a76f49bb-6ef2-4fb8-8e03-8cfe8adfc212.png)
+
+
+</details>
+
+
+<br/>
+
+#### 제외된 이벤트
+
+<details>
+<summary>확인하기</summary>
+  
+![image](https://user-images.githubusercontent.com/46955032/214474514-5d1836ae-0a17-4609-9440-25d381e63ff9.png)
+
+</details>
+  
+<br/> 
+
+#### 수정된 이벤트
+
+<details>
+<summary>확인하기</summary>
+
+![image](https://user-images.githubusercontent.com/46955032/214474613-0451f288-e416-47ba-8e67-888de2cbefcd.png)
 
 </details>
 
 
 
 
+
+
+<br/> 
+
+#### 우선 순위 식별
+
+![image](https://user-images.githubusercontent.com/46955032/214473038-7c191bbe-df9b-4826-b5c1-3e7aed34bb8f.png)
+
+
+<br/>
 <br/>
 
 <details>
