@@ -90,7 +90,8 @@
 <details>
 <summary>확인하기</summary>
 
-![image](https://user-images.githubusercontent.com/46955032/214474613-0451f288-e416-47ba-8e67-888de2cbefcd.png)
+![image](https://user-images.githubusercontent.com/46955032/214474916-d83bdb6e-0a4e-45d1-9327-36aa358f4acc.png)
+
 
 </details>
 
